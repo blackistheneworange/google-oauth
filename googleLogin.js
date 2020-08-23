@@ -4,8 +4,8 @@ const {google} = require('googleapis');
 exports.oauth2Client=function(){
 
 	const oauth2Client = new google.auth.OAuth2(
-  "445840600134-gcl3c8jg9tia6vc4j0hnt2jvvtollnfs.apps.googleusercontent.com",
-  "t7t9VaxLFNwx3e5MPXJC9itH",
+  'CLIENT ID",
+  "CLIENT KEY",
   'http://localhost:3000/user'
 );
 return oauth2Client;
